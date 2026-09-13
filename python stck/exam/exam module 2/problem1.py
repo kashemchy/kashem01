@@ -10,4 +10,3 @@ def greet(name):
 
 #greet(input("Name Here: "))
 greetings = greet(input("Name Here: "))
-
