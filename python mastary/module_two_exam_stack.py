@@ -39,5 +39,10 @@ print("Name saved successfully")
 
 
 
+age = int(input("Enter your age: "))
 
+file = open("kashem.txt", "w")
+file.write(str(age))
+file.close()
+print("Age has been entered successfully")
 
